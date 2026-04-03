@@ -5,7 +5,7 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   author: {
     name: "Moclgy",
-    url: "https://github.com/moklgydocs",
+    url: "https://github.com/mokylpdocs",
   },
   themeColor: {
     blue: "#2196f3",
@@ -17,7 +17,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "moklgydocs/moklgydocs.github.io",
+  repo: "mokylpdocs/mokylpdocs.github.io",
 
   docsDir: "src",
 
@@ -78,7 +78,7 @@ export default hopeTheme({
     },
     comment: {
       provider: "Giscus",
-      repo: "moklgydocs/moklgydocs.github.io", // data-repo
+      repo: "mokylpdocs/mokylpdocs.github.io", // data-repo
       repoId: "R_kgDOOgzE7A", // data-repo-id
       category: "General", // data-category
       categoryId: "DIC_kwDOOgzE7M4C57ms", // data-category-id

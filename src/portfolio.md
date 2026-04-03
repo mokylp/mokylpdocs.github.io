@@ -4,7 +4,7 @@ icon: house
 title: 关于我
 
 heroImage: /me.png
-heroText: Moklgy
+heroText: Mokylp
 tagline: 后端开发工程师 (.NET) / 全栈极客 / 持续学习者
 
 footer: false

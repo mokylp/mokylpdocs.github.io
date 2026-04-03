@@ -1,7 +1,7 @@
 ---
 home: true
 icon: microchip
-title: Moklgy 的主页
+title: Mokylp 的主页
 heroImage: /me.png
 heroImageStyle:
   max-width: 300px
@@ -11,7 +11,7 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
 bgImageStyle:
   background-attachment: fixed
   opacity: 0.8
-heroText: 欢迎来到 Moklgy 的异星基站
+heroText: 欢迎来到 Mokylp 的异星基站
 tagline: ⚡ Cyber · 架构设计 / 全栈开发 / 运维部署，记录技术进阶之路 ⚡
 actions:
   - text: 启动主引擎
