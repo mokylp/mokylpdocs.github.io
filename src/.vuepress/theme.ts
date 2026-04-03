@@ -79,7 +79,7 @@ export default hopeTheme({
     comment: {
       provider: "Giscus",
       repo: "mokylpdocs/mokylpdocs.github.io", // data-repo
-      repoId: "R_kgDOOgzE7A", // data-repo-id
+      repoId: "R_kgDOR4pZDg", // data-repo-id
       category: "General", // data-category
       categoryId: "DIC_kwDOOgzE7M4C57ms", // data-category-id
     },
