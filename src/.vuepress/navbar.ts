@@ -3,94 +3,190 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "前端开发",
-    icon: "laptop-code",
-    prefix: "/前端开发/",
+    text: "测试基础",
+    icon: "book",
+    prefix: "/测试基础/",
     children: [
       {
-        text: "TypeScript 从零实现 axios",
-        icon: "bolt",
-        link: "TypeScript 从零实现 axios/"
+        text: "软件测试理论",
+        icon: "graduation-cap",
+        link: "软件测试理论/"
       },
       {
-        text: "JavaScript 教程",
-        icon: "fa6-brands:square-js",
-        link: "JavaScript教程/"
+        text: "测试方法与技术",
+        icon: "lightbulb",
+        link: "测试方法与技术/"
       },
       {
-        text: "ES6 教程",
-        icon: "fa6-brands:js",
-        link: "ES6教程/"
+        text: "测试流程与规范",
+        icon: "list-check",
+        link: "测试流程与规范/"
       }
     ]
   },
   {
-    text: "后端开发",
-    icon: "code",
-    prefix: "/后端开发/",
+    text: "自动化测试",
+    icon: "robot",
+    prefix: "/自动化测试/",
     children: [
       {
-        text: "ASP.NET Core",
-        icon: "server",
-        link: "ASP.NET_Core/",
+        text: "Selenium WebDriver",
+        icon: "globe",
+        link: "Selenium/"
       },
       {
-        text: "ABP框架",
-        icon: "layer-group",
-        link: "ABP框架/",
+        text: "Appium 移动端测试",
+        icon: "mobile-screen",
+        link: "Appium/",
       },
+      {
+        text: "Playwright 测试框架",
+        icon: "wand-magic-sparkles",
+        link: "Playwright/",
+      },
+      {
+        text: "Cypress E2E 测试",
+        icon: "circle-check",
+        link: "Cypress/",
+      }
     ],
   },
   {
-    text: "架构与设计",
-    icon: "sitemap",
-    prefix: "/架构与设计/",
+    text: "接口测试",
+    icon: "plug",
+    prefix: "/接口测试/",
     children: [
       {
-         text: "设计模式",
-         icon: "object-group",
-         link: "设计模式/"
+         text: "Postman 实战",
+         icon: "paper-plane",
+         link: "Postman/"
+      },
+      {
+         text: "JMeter 性能测试",
+         icon: "gauge-high",
+         link: "JMeter/"
+      },
+      {
+         text: "接口自动化框架",
+         icon: "gears",
+         link: "接口自动化/"
       }
     ]
   },
   {
-     text: "Linux",
-     icon: "fa6-brands:linux",
-     link: "/Linux/"
-  },
-  {
-     text: "语言",
-     icon: "language",
-     prefix: "/语言/",
+     text: "性能测试",
+     icon: "chart-line",
+     prefix: "/性能测试/",
      children: [
        {
-         text: "日语",
-         icon: "language",
-         link: "日语/"
+         text: "性能测试基础",
+         icon: "clock",
+         link: "性能测试基础/"
+       },
+       {
+         text: "LoadRunner 使用",
+         icon: "bolt",
+         link: "LoadRunner/"
+       },
+       {
+         text: "性能调优实践",
+         icon: "screwdriver-wrench",
+         link: "性能调优/"
        }
      ]
   },
   {
-     text: "面试题",
-     icon: "fa6-solid:file-circle-question",
-     prefix: "/面试题/",
+     text: "测试工具",
+     icon: "toolbox",
+     prefix: "/测试工具/",
      children: [
        {
-         text: "后端面试题",
-         icon: "fa6-solid:server",
-         link: "后端面试题/"
+         text: "测试管理工具",
+         icon: "folder-tree",
+         link: "测试管理工具/"
+       },
+       {
+         text: "Bug 管理系统",
+         icon: "bug",
+         link: "Bug管理/"
+       },
+       {
+         text: "抓包与调试工具",
+         icon: "network-wired",
+         link: "抓包工具/"
        }
      ]
   },
   {
-     text: "运维与部署",
-     icon: "rocket",
-     link: "/运维与部署/"
+     text: "编程语言",
+     icon: "code",
+     prefix: "/编程语言/",
+     children: [
+       {
+         text: "Python 测试开发",
+         icon: "fa6-brands:python",
+         link: "Python/"
+       },
+       {
+         text: "Java 测试基础",
+         icon: "fa6-brands:java",
+         link: "Java/"
+       },
+       {
+         text: "JavaScript/TypeScript",
+         icon: "fa6-brands:js",
+         link: "JavaScript/"
+       }
+     ]
   },
   {
-     text: "思维训练",
-     icon: "brain",
-     link: "/思维训练/"
+     text: "数据库测试",
+     icon: "database",
+     link: "/数据库测试/"
+  },
+  {
+     text: "测试面试",
+     icon: "user-tie",
+     prefix: "/测试面试/",
+     children: [
+       {
+         text: "测试基础面试题",
+         icon: "circle-question",
+         link: "基础面试题/"
+       },
+       {
+         text: "自动化测试面试",
+         icon: "robot",
+         link: "自动化面试题/"
+       },
+       {
+         text: "面试经验分享",
+         icon: "heart",
+         link: "面试经验/"
+       }
+     ]
+  },
+  {
+     text: "职场成长",
+     icon: "seedling",
+     prefix: "/职场成长/",
+     children: [
+       {
+         text: "测试职业规划",
+         icon: "road",
+         link: "职业规划/"
+       },
+       {
+         text: "工作心得分享",
+         icon: "comment-dots",
+         link: "工作心得/"
+       },
+       {
+         text: "女性测试工程师",
+         icon: "venus",
+         link: "女性测试/"
+       }
+     ]
   },
   {
      text: "关于我",

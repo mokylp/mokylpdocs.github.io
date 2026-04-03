@@ -4,61 +4,67 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "后端开发",
+      text: "测试基础",
+      icon: "book",
+      prefix: "测试基础/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "自动化测试",
+      icon: "robot",
+      prefix: "自动化测试/",
+      collapsible: true,
+      children: "structure"
+    },
+    {
+      text: "接口测试",
+      icon: "plug",
+      prefix: "接口测试/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "性能测试",
+      icon: "chart-line",
+      prefix: "性能测试/",
+      collapsible: true,
+      children: "structure",
+    },
+    {
+      text: "测试工具",
+      icon: "toolbox",
+      prefix: "测试工具/",
+      collapsible: true,
+      children: "structure"
+    },
+    {
+      text: "编程语言",
       icon: "code",
-      prefix: "后端开发/",
-      collapsible: true,
-      children: "structure",
-    },
-    {
-      text: "前端开发",
-      icon: "laptop-code",
-      prefix: "前端开发/",
+      prefix: "编程语言/",
       collapsible: true,
       children: "structure"
     },
     {
-      text: "架构与设计",
-      icon: "sitemap",
-      prefix: "架构与设计/",
-      collapsible: true,
-      children: "structure",
-    },
-    {
-      text: "语言",
-      icon: "language",
-      prefix: "语言/",
-      collapsible: true,
-      children: "structure",
-    },
-    {
-      text: "面试题",
-      icon: "fa6-solid:file-circle-question",
-      prefix: "面试题/",
+      text: "数据库测试",
+      icon: "database",
+      prefix: "数据库测试/",
       collapsible: true,
       children: "structure"
     },
     {
-      text: "Linux",
-      icon: "fa6-brands:linux",
-      prefix: "Linux/",
+      text: "测试面试",
+      icon: "user-tie",
+      prefix: "测试面试/",
       collapsible: true,
       children: "structure"
     },
     {
-      text: "运维与部署",
-      icon: "rocket",
-      prefix: "运维与部署/",
-      collapsible: true,
-      children: "structure"
-    },
-    {
-      text: "思维训练",
-      icon: "brain",
-      prefix: "思维训练/",
+      text: "职场成长",
+      icon: "seedling",
+      prefix: "职场成长/",
       collapsible: true,
       children: "structure"
     }
   ],
 });
-

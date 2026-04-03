@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "Mokylp 的异星基站",
-  description: "Mokylp 个人文档与技术博客",
+  title: "测试小姐姐的技术花园 🌸",
+  description: "女性软件测试工程师的成长笔记与技术分享",
   head: [
     ["link", { rel: "icon", href: "/logo.svg" }]
   ],

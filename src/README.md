@@ -1,7 +1,7 @@
 ---
 home: true
-icon: microchip
-title: Mokylp 的主页
+icon: heart
+title: 测试小姐姐的技术花园
 heroImage: /me.png
 heroImageStyle:
   max-width: 300px
@@ -11,62 +11,98 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
 bgImageStyle:
   background-attachment: fixed
   opacity: 0.8
-heroText: 欢迎来到 Mokylp 的异星基站
-tagline: ⚡ Cyber · 架构设计 / 全栈开发 / 运维部署，记录技术进阶之路 ⚡
+heroText: 欢迎来到测试小姐姐的技术花园 🌸
+tagline: 💝 用心测试 · 精益求精 · 记录成长之路 · 分享测试智慧 💝
 actions:
-  - text: 启动主引擎
-    icon: rocket
-    link: /后端开发/ASP.NET_Core/
+  - text: 开始探索
+    icon: compass
+    link: /测试基础/软件测试理论/
     type: primary
 
-  - text: 核心控制台
-    icon: terminal
+  - text: 关于我
+    icon: user
     link: /portfolio
 
 highlights:
-  - header: 终端载入中_赛博领域技栈
-    description: 构建健壮、可扩展的分布式矩阵网络
+  - header: 测试技术栈全景图 🎯
+    description: 从基础到进阶，打造全面的测试技能体系
     image: /assets/image/advanced.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
     features:
-      - title: .NET Core 节点
-        icon: server
-        details: 深入 ASP.NET Core 原理、ABP 框架核心机制。建立强健的领域驱动后台服务阵列。
-        link: /后端开发/ASP.NET_Core/
+      - title: 测试基础理论 📚
+        icon: book
+        details: 掌握软件测试核心理论，建立扎实的测试知识体系，理解各类测试方法与技术。
+        link: /测试基础/软件测试理论/
 
-      - title: 架构蓝图规划
-        icon: sitemap
-        details: 拆解复杂系统拓扑，运用经典模式构建零耦合的模块化组件体系。
-        link: /架构与设计/设计模式/
+      - title: 自动化测试实战 🤖
+        icon: robot
+        details: 深入 Selenium、Appium、Playwright、Cypress 等主流自动化测试框架。
+        link: /自动化测试/Selenium/
 
-      - title: 前沿前端介质
-        icon: laptop-code
-        details: 接入 Vue/React 全息面板，探索赛博庞克风 UX 与跨端响应式应用。
-        link: /前端开发/
+      - title: 接口测试精通 🔌
+        icon: plug
+        details: 熟练使用 Postman、JMeter，掌握接口自动化测试框架设计与实现。
+        link: /接口测试/Postman/
         
-      - title: Linux 系统深潜
-        icon: fa6-brands:linux
-        details: 深潜底层内核网络，精通各种命令行魔法与守护进程服务构建。
-        link: /Linux/
+      - title: 性能测试优化 📊
+        icon: chart-line
+        details: 性能测试理论、工具使用、性能调优，让系统运行更高效稳定。
+        link: /性能测试/性能测试基础/
         
-      - title: 云端自动化网格
-        icon: cloud
-        details: 容器集群调度算法与 CI/CD 自动化编排，保持服务器始终脉动。
-        link: /运维与部署/
+      - title: 测试工具箱 🛠️
+        icon: toolbox
+        details: 测试管理、缺陷跟踪、抓包调试等各类实用工具全掌握。
+        link: /测试工具/测试管理工具/
         
-      - title: 语言
-        icon: language
-        details: 业余爱好与外语学习
-        link: /语言/
+      - title: 编程语言技能 💻
+        icon: code
+        details: Python、Java、JavaScript 等编程语言在测试中的应用。
+        link: /编程语言/Python/
         
-      - title: 面试题与解析
-        icon: fa6-solid:file-circle-question
-        details: 整理和归纳各种面试笔试题（包括后端等核心题库）
-        link: /面试题/后端面试题/
+      - title: 数据库测试 🗄️
+        icon: database
+        details: SQL 查询、数据库测试技巧、数据验证方法深度解析。
+        link: /数据库测试/
+        
+      - title: 测试面试通关 🎓
+        icon: user-tie
+        details: 精选测试面试题库，分享面试经验，助你顺利拿到心仪 offer。
+        link: /测试面试/基础面试题/
+
+      - title: 职场成长分享 🌱
+        icon: seedling
+        details: 测试职业规划、工作心得、女性测试工程师的成长之路。
+        link: /职场成长/职业规划/
 
 copyright: false
-footer: system online
+footer: 用心测试，让世界更美好 💝
 ---
 
-> "Any application that can be written in JavaScript, will eventually be written in JavaScript... Unless we use C#.
+> "Testing is not just about finding bugs, it's about ensuring quality and building confidence." 
+> 
+> 测试不仅仅是发现缺陷，更是保证质量、建立信心的过程。💖
+
+## ✨ 关于这个博客
+
+这是一个专注于**软件测试**的技术博客，记录我在测试领域的学习、实践和思考。
+
+作为一名女性测试工程师，我希望通过这个平台：
+- 📝 分享测试技术知识和实战经验
+- 🚀 记录自动化测试、性能测试等技术的学习历程
+- 💡 探讨测试工具和最佳实践
+- 🌈 分享职场成长和女性测试工程师的独特视角
+
+## 🎯 学习路线
+
+无论你是测试新人还是有经验的测试工程师，都可以在这里找到适合自己的内容：
+
+1. **测试入门** → 从测试基础理论开始，建立完整的知识框架
+2. **工具实践** → 学习各类测试工具的使用技巧
+3. **自动化进阶** → 深入自动化测试框架和脚本开发
+4. **性能优化** → 掌握性能测试方法和调优技能
+5. **职业发展** → 规划测试职业道路，持续成长
+
+## 💬 交流与分享
+
+欢迎在评论区留言交流，分享你的测试经验和心得！让我们一起进步~ 🌟

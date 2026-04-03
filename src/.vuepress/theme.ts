@@ -4,15 +4,16 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   author: {
-    name: "Moclgy",
+    name: "测试小姐姐",
     url: "https://github.com/mokylpdocs",
   },
   themeColor: {
-    blue: "#2196f3",
-    cyan: "#00ffcc", // Added cyber cyan
-    red: "#f26d6d",
-    green: "#3eaf7c",
-    orange: "#fb9b5f",
+    pink: "#ff69b4",      // 温馨粉色
+    purple: "#9370db",    // 优雅紫色
+    lavender: "#e6b3ff",  // 薰衣草色
+    mint: "#98d8c8",      // 薄荷绿
+    peach: "#ffb6c1",     // 桃粉色
+    blue: "#87ceeb",      // 天蓝色
   },
 
   logo: "/logo.svg",
@@ -24,7 +25,7 @@ export default hopeTheme({
   navbar,
   sidebar,
 
-  footer: "Transmission Clear",
+  footer: "用心测试，让世界更美好 💝",
   displayFooter: true,
 
   metaLocales: {
