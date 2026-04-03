@@ -5,7 +5,7 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   // 作者信息
   author: {
-    name: "边界测试官",
+    name: "捉bug小记",
     url: "https://github.com/mokylpdocs",
     email: "testgirl@example.com",
   },
@@ -36,7 +36,7 @@ export default hopeTheme({
   // 页脚
   footer: "用心测试，让世界更美好 💝 | 测试工程师的成长笔记",
   displayFooter: true,
-  copyright: "Copyright © 2024-2026 边界测试官 | 保留所有权利",
+  copyright: "Copyright © 2024-2026 捉bug小记 | 保留所有权利",
   
   // 页面元数据
   metaLocales: {
@@ -48,7 +48,7 @@ export default hopeTheme({
   
   // 博客配置
   blog: {
-    name: "边界测试官",
+    name: "捉bug小记",
     avatar: "/me.png",
     description: "软件测试工程师 | 自动化测试爱好者 | 质量保障专家",
     intro: "/portfolio",
@@ -127,7 +127,7 @@ export default hopeTheme({
     
     // 版权信息
     copyright: {
-      author: "边界测试官",
+      author: "捉bug小记",
       license: "CC BY-NC-SA 4.0",
       global: true,
     },

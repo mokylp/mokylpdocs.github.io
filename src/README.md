@@ -1,7 +1,7 @@
 ---
 home: true
 icon: heart
-title: 边界测试官的技术花园
+title: 捉bug小记的技术花园
 heroImage: /me.png
 heroImageStyle:
   max-width: 300px
@@ -11,7 +11,7 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
 bgImageStyle:
   background-attachment: fixed
   opacity: 0.8
-heroText: 欢迎来到边界测试官的技术花园 🌸
+heroText: 欢迎来到捉bug小记的技术花园 🌸
 tagline: 💝 用心测试 · 精益求精 · 记录成长之路 · 分享测试智慧 💝
 actions:
   - text: 开始探索

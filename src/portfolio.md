@@ -4,13 +4,13 @@ icon: heart
 title: 关于我
 
 heroImage: /me.png
-heroText: 边界测试官
+heroText: 捉bug小记
 tagline: 软件测试工程师 / 自动化测试爱好者 / 终身学习者
 
 footer: false
 ---
 
-## 👋 你好，我是边界测试官
+## 👋 你好，我是捉bug小记
 
 一名热爱软件测试的工程师，专注于用严谨的态度和细腻的心思保障软件质量。
 

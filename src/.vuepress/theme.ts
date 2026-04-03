@@ -4,7 +4,7 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   author: {
-    name: "边界测试官",
+    name: "捉bug小记",
     url: "https://github.com/mokylpdocs",
   },
   themeColor: {

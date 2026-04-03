@@ -93,7 +93,7 @@ elements = driver.find_elements(By.CLASS_NAME, "menu-item")
 ### 3. 常用操作
 ```python
 # 输入文本
-element.send_keys("边界测试官")
+element.send_keys("捉bug小记")
 
 # 点击元素
 element.click()
@@ -633,4 +633,4 @@ driver.execute_script("arguments[0].click();", element)
 
 ---
 
-> 💡 **边界测试官的
+> 💡 **捉bug小记的
